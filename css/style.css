@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* FORMATAÇÕES GERAIS */
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+
+/* FORMATAÇÃO DE COLUNAS */
+
+
+/* FORMATAÇÃO DO MENU */
+nav#menu ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}

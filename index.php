@@ -9,6 +9,7 @@
         <meta content="viewport" name="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
 
         <script src="js/script.js"></script>
     </head>
@@ -16,14 +17,16 @@
         <header>
             <!-- Aqui vai ficar o cabeçalho do nosso sistema e tudo pertinente ao titulo do projeto -->
         </header>
-        <nav>
+        <nav id="menu">
             <!-- Aqui vai ficar o menu de navegação do sistema -->
             <ul>
-
+                <li><a href="http://localhost/projeto-escola-sinc/home">home</a></li>
+                <li><a href="http://localhost/projeto-escola-sinc/sobre">Sobre</a></li>
+                <li><a href="http://localhost/projeto-escola-sinc/contato">contato</a></li>
             </ul>
         </nav>
         <section>
-            <?php var_dump($_GET); ?>
+            <?php require_once 'controller/router.php'; ?>
             <!-- Aqui vai ficar todo o conteúdo do sistema -->
         </section>
         <aside>
